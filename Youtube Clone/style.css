@@ -1,3 +1,9 @@
+p {
+  font-family: Roboto, Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .video-preview {
   width: 300px;
   display: inline-block;
@@ -11,4 +17,44 @@
 
 .thumbnail {
   width: 300px;
+}
+
+.channel-picture,
+.video-info {
+  display: inline-block;
+}
+
+.channel-picture {
+  width: 50px;
+  vertical-align: top;
+}
+
+.video-info {
+  width: 200px;
+  margin-left: 10px;
+}
+
+.profile-picture {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.thumbnail-row {
+  margin-bottom: 12px;
+}
+
+.video-title {
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+
+.video-creator,
+.video-statistics {
+  font-size: 12px;
+  color: #606060;
+}
+
+.video-creator {
+  margin-bottom: 5px;
 }
