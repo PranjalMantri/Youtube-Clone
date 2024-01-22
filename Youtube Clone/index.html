@@ -10,15 +10,55 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/video.css" />
   </head>
   <body>
     <div class="header">
-      <div class="left-section"></div>
-      <div class="middle-section">
-        <input class="searchbar" type="text" placeholder="search" />
+      <div class="left-section">
+        <img
+          class="icon-hamburger-menu header-icons"
+          src="assets/icons/hamburger-menu.svg"
+        />
+        <img class="youtube-logo" src="assets/icons/youtube-logo.svg" />
       </div>
-      <div class="right-section"></div>
+      <div class="middle-section">
+        <input class="searchbar" type="text" placeholder="Search" />
+        <button class="btn-search">
+          <img src="assets/icons/search.svg" alt="search" class="icon-search" />
+        </button>
+        <button class="btn-voice-search">
+          <img
+            src="assets/icons/voice-search-icon.svg"
+            alt="voice-search"
+            class="icon-voice-search"
+          />
+        </button>
+      </div>
+      <div class="right-section">
+        <img
+          class="icon-upload header-icons"
+          src="assets/icons/upload.svg"
+          alt="upload"
+        />
+
+        <img
+          class="icon-youtube-apps header-icons"
+          src="assets/icons/youtube-apps.svg"
+          alt="youtube apps"
+        />
+        <img
+          class="icon-notifications header-icons"
+          src="assets/icons/notifications.svg"
+          alt="notifications"
+        />
+        <img
+          class="icon-personal-profile header-icons"
+          src="assets/icons/youtube-profile.jpg"
+          alt="profile-picture"
+        />
+      </div>
     </div>
 
     <div class="video-grid">
