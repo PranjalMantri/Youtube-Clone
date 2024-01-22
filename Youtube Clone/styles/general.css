@@ -4,6 +4,14 @@ p {
   margin-bottom: 0;
 }
 
+div {
+  font-family: Roboto, Arial;
+}
 body {
   margin: 0;
+  padding-top: 76px;
+  padding-left: 96px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  background-color: #d3d3d317;
 }

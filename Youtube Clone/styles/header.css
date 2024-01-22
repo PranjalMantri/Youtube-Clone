@@ -1,8 +1,15 @@
 .header {
-  height: 55px;
+  height: 56px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-bottom: 1px solid #cccccc;
+  z-index: 100;
 }
 
 .left-section {
@@ -91,6 +98,25 @@
 .header-icons {
   height: 24px;
   margin-left: 10px;
+}
+
+.notifications-icon-container {
+  position: relative;
+}
+
+.notifications-count {
+  position: absolute;
+  top: -4px;
+  right: -3px;
+  background-color: rgba(255, 0, 0, 1);
+  color: white;
+  font-family: Roboto, Arial;
+  font-size: 11px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 50%;
 }
 
 .icon-personal-profile {

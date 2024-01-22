@@ -12,59 +12,101 @@
     />
     <link rel="stylesheet" href="styles/general.css" />
     <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
     <link rel="stylesheet" href="styles/video.css" />
+    <header>
+      <div class="header">
+        <div class="left-section">
+          <img
+            class="icon-hamburger-menu header-icons"
+            src="assets/icons/hamburger-menu.svg"
+          />
+          <img class="youtube-logo" src="assets/icons/youtube-logo.svg" />
+        </div>
+        <div class="middle-section">
+          <input class="searchbar" type="text" placeholder="Search" />
+          <button class="btn-search">
+            <img
+              src="assets/icons/search.svg"
+              alt="search"
+              class="icon-search"
+            />
+          </button>
+          <button class="btn-voice-search">
+            <img
+              src="assets/icons/voice-search-icon.svg"
+              alt="voice-search"
+              class="icon-voice-search"
+            />
+          </button>
+        </div>
+        <div class="right-section">
+          <img
+            class="icon-upload header-icons"
+            src="assets/icons/upload.svg"
+            alt="upload"
+          />
+          <img
+            class="icon-youtube-apps header-icons"
+            src="assets/icons/youtube-apps.svg"
+            alt="youtube apps"
+          />
+          <div class="notifications-icon-container">
+            <img
+              class="icon-notifications header-icons"
+              src="assets/icons/notifications.svg"
+              alt="notifications"
+            />
+
+            <div class="notifications-count">3</div>
+          </div>
+          <img
+            class="icon-personal-profile header-icons"
+            src="assets/icons/youtube-profile.jpg"
+            alt="profile-picture"
+          />
+        </div>
+      </div>
+    </header>
   </head>
   <body>
-    <div class="header">
-      <div class="left-section">
-        <img
-          class="icon-hamburger-menu header-icons"
-          src="assets/icons/hamburger-menu.svg"
-        />
-        <img class="youtube-logo" src="assets/icons/youtube-logo.svg" />
+    <div class="sidebar">
+      <div class="sidebar-buttons">
+        <img class="sidebar-button-image" src="assets/icons/home.svg" />
+        <label class="sidebar-buttons-label">Home</label>
       </div>
-      <div class="middle-section">
-        <input class="searchbar" type="text" placeholder="Search" />
-        <button class="btn-search">
-          <img src="assets/icons/search.svg" alt="search" class="icon-search" />
-        </button>
-        <button class="btn-voice-search">
-          <img
-            src="assets/icons/voice-search-icon.svg"
-            alt="voice-search"
-            class="icon-voice-search"
-          />
-        </button>
+      <div class="sidebar-buttons">
+        <img class="sidebar-button-image" src="assets/icons/explore.svg" />
+        <label class="sidebar-buttons-label">Explore</label>
       </div>
-      <div class="right-section">
+      <div class="sidebar-buttons">
         <img
-          class="icon-upload header-icons"
-          src="assets/icons/upload.svg"
-          alt="upload"
+          class="sidebar-button-image"
+          src="assets/icons/subscriptions.svg"
         />
-
+        <label class="sidebar-buttons-label">Subscriptions</label>
+      </div>
+      <div class="sidebar-buttons">
+        <img class="sidebar-button-image" src="assets/icons/originals.svg" />
+        <label class="sidebar-buttons-label">Originals</label>
+      </div>
+      <div class="sidebar-buttons">
         <img
-          class="icon-youtube-apps header-icons"
-          src="assets/icons/youtube-apps.svg"
-          alt="youtube apps"
+          class="sidebar-button-image"
+          src="assets/icons/youtube-music.svg"
         />
-        <img
-          class="icon-notifications header-icons"
-          src="assets/icons/notifications.svg"
-          alt="notifications"
-        />
-        <img
-          class="icon-personal-profile header-icons"
-          src="assets/icons/youtube-profile.jpg"
-          alt="profile-picture"
-        />
+        <label class="sidebar-buttons-label">Youtube Music</label>
+      </div>
+      <div class="sidebar-buttons">
+        <img class="sidebar-button-image" src="assets/icons/library.svg" />
+        <label class="sidebar-buttons-label">Library</label>
       </div>
     </div>
-
     <div class="video-grid">
       <div class="video-preview">
         <div class="thumbnail-row">
           <img class="thumbnail" src="assets/images/thumbnail-1.webp" />
+          <div class="video-time">14:20</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
@@ -86,6 +128,7 @@
       <div class="video-preview">
         <div class="thumbnail-row">
           <img class="thumbnail" src="assets/images/thumbnail-2.webp" />
+          <div class="video-time">8:22</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
@@ -105,6 +148,7 @@
       <div class="video-preview">
         <div class="thumbnail-row">
           <img class="thumbnail" src="assets/images/thumbnail-3.webp" />
+          <div class="video-time">9:13</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
@@ -126,6 +170,7 @@
       <div class="video-preview">
         <div class="thumbnail-row">
           <img class="thumbnail" src="assets/images/thumbnail-4.webp" />
+          <div class="video-time">22:09</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
@@ -147,6 +192,7 @@
       <div class="video-preview">
         <div class="thumbnail-row">
           <img class="thumbnail" src="assets/images/thumbnail-5.webp" />
+          <div class="video-time">11:17</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
@@ -168,6 +214,7 @@
       <div class="video-preview">
         <div class="thumbnail-row">
           <img class="thumbnail" src="assets/images/thumbnail-6.webp" />
+          <div class="video-time">19:59</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
@@ -182,6 +229,132 @@
             </p>
             <p class="video-creator">Mr. Beast</p>
             <p class="video-statistics">141M views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="assets/images/thumbnail-7.webp" />
+          <div class="video-time">10:13</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="assets/profile-pictures/channel-7.jpeg"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Why planes DON'T fly over Tibet</p>
+            <p class="video-creator">RealLifeLore</p>
+            <p class="video-statistics">6.6M views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="assets/images/thumbnail-8.webp" />
+          <div class="video-time">7:12</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="assets/profile-pictures/channel-8.jpeg"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Inside the world's biggest passenger plane
+            </p>
+            <p class="video-creator">Tech Vision</p>
+            <p class="video-statistics">3.7M views &#183; 10 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="assets/images/thumbnail-9.webp" />
+          <div class="video-time">13:17</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="assets/profile-pictures/channel-9.jpeg"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">The SECRET to super human STRENTGH</p>
+            <p class="video-creator">ThenX</p>
+            <p class="video-statistics">20M views &#183; 3 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="assets/images/thumbnail-10.webp" />
+          <div class="video-time">7:53</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="assets/profile-pictures/channel-10.jpeg"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              How the world's largest cruise ship makes 30,000 meals a day
+            </p>
+            <p class="video-creator">Buisness Insider/p></p>
+            <p class="video-statistics">14M views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="assets/images/thumbnail-11.webp" />
+          <div class="video-time">4:10</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="assets/profile-pictures/channel-11.jpeg"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Dubai's crazy under water train and other things #Only in Dubai
+            </p>
+            <p class="video-creator">Destination Tips</p>
+            <p class="video-statistics">3M views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="assets/images/thumbnail-12.webp" />
+          <div class="video-time">4:51</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="assets/profile-pictures/channel-12.jpeg"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              What would happen if you didn't drink water? Mia Nacamulli
+            </p>
+            <p class="video-creator">TED-Ed</p>
+            <p class="video-statistics">12M views &#183; 5 years ago</p>
           </div>
         </div>
       </div>
